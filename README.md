@@ -4,12 +4,13 @@
 List of Capstone Projects
 NUMBERS:
 
-  Find PI to the Nth Digit:
-  from math import e
+Find PI to the Nth Digit:
+
+from math import e
 def given_num(n):
    
     return '%.*f' % (n, e)
-
+    
 if __name__ == '__main__':
     # there is no do while loop in python, so we need to improvise
     correct_input = False
@@ -35,6 +36,7 @@ if __name__ == '__main__':
     the same as the above prog)
 FIBONACCI SERIES:
 TO PRINT SEQUENCE:
+program3
 no_of_terms = int(input("enter to num to print the fibo seq upto : "))
 n1,n2 = 0,1
 count = 0
@@ -52,7 +54,8 @@ else:
         count += 1
         
  TO GET A FIB NUM IN A PARTICULAR PLACE:
- def fibo(n):
+
+def fibo(n):
 
     if n <= 0:
         print("enter a positive integer")
